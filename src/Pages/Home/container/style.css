@@ -1,0 +1,160 @@
+/* .car-item {
+  width: 100%;
+  max-width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.car-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.car-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.car-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.car-details {
+  width: 100%;
+  padding-top: 16px;
+}
+
+.car-details h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+
+.car-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.delete-button,
+.update-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff4d4f;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.update-button {
+  background-color: #6E40FF;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .car-item {
+    width: 100%;
+    max-width: 100%;
+  }
+} */
+.product-list {
+  padding: 20px;
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.car-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.car-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.car-details {
+  margin-top: 15px;
+}
+
+.car-details h3 {
+  margin: 0 0 10px 0;
+}
+
+.car-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.delete-button, .update-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  color: white;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.error {
+  color: #ff4444;
+}
